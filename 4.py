@@ -23,8 +23,10 @@ items = [
 #        item2,
 #          item3)
 
-sale = input("What item would you like to buy? [0] Samsung tv  [1]iphone 16  [2] Macbook air 2025")
-if sale == "0":
-     print(items[0]["price"])
-elif sale == "b":
-     print("That will be ")
+sale = int(input("What item would you like to buy? [0] Samsung tv  [1]iphone 16  [2] Macbook air 2025"))
+print(len(items)-1)
+if sale > len(items) - 1:
+    print(items[sale]["price"])
+else:
+    print("ur stupid")
+
