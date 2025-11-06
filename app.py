@@ -24,12 +24,12 @@ want = input("For the Samsung TV, hit 1: For the Apple macbook, hit 2: For the A
 
 while want != "1" "2" "3":
     print("Not a valid answer, please try again.")
-    print("Here is what we h ave for sale:")
-    print(item0,item1)
+    print("Here is what we have for sale:")
+    print(item0,item1,item2)
     
     want = input("For the Samsung TV, hit 1:  For the Apple Macbook pro, hit 2: For the Apple Iphone 16 plus hit 3  ")
 
-print("Added to cart!") 
+print("Added to cart!")
 
 
 more = input("Do you want anything else? (yes/no): ").lower()
