@@ -55,4 +55,5 @@ while more != "no":
     more = input("Do you want anything else? (yes/no): ").lower()
 
 print("Thanks for shopping with us!")
+print("please proceed to checkout.")
 #now find a way to keep track of the cart so the user can go back to take a look at it
